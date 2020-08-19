@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: grey;
+    
+}
+.container{
+    font: 24px;
+    color:  blueviolet;
+}
+.photo{
+    text-align: center;
+    
+
+}
+
+main {
+    text-align: center;
+    border: 10px solid;
+    border-color: blueviolet;
+    font-size: 34px;
+}
+
+
+
+.nav-item:hover{
+    background-color:yellow;
+}
+.display-1{
+    color: ghostwhite;
+}
