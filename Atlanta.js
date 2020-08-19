@@ -1,7 +1,7 @@
-// This is where your API key is located 
+// This is where you would place your API key  
 var APIKey = "b8ab2125465b75b5f1439d334b396212";
 
-//This is were we are building the URL we need to query the database
+//This is where we are building the URL we need to query the database
 var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=Atlanta,&appid=b8ab2125465b75b5f1439d334b396212";
 
 
@@ -9,14 +9,13 @@ console.log(queryURL);
 appid=
 console.log(queryURL);
 
-// Here run your AJAX call to the OpenWeatherMap API
+// This is where you would run your AJAX call to the OpenWeatherMap API
 $.ajax({
 url: queryURL,
 method: "GET"
 })
 
-
-  // We store all of the retrieved data inside of an object called respons
+  // All of the gathered data inside of an object called is response
 .then(function(response) {
     console.log(queryURL);
     console.log(response);

@@ -5,7 +5,7 @@ h1{
 }
 .container{
     font: 24px;
-    color:  blueviolet;
+    color:  #800080
 }
 .photo{
     text-align: center;
@@ -16,14 +16,14 @@ h1{
 main {
     text-align: center;
     border: 10px solid;
-    border-color: blueviolet;
-    font-size: 34px;
+    border-color: #800080
+    font-size: 40px;
 }
 
 
 
 .nav-item:hover{
-    background-color:yellow;
+    background-color:#008000;
 }
 .display-1{
     color: ghostwhite;
