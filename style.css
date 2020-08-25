@@ -1,11 +1,11 @@
 h1{
     text-align: center;
     color: navy;
-    
+    font: 64px;    
 }
 .container{
-    font: 18px;
-    color:  #800080
+    font: 20px;
+    color:  #800080;
 }
 .photo{
     text-align: center;
@@ -15,9 +15,9 @@ h1{
 
 main {
     text-align: center;
-    border: 18px solid;
-    border-color: #800080
-    font-size: 40px;
+    border: 9px solid;
+    border-color: #800080;
+    font-size: 20px;
 }
 
 
@@ -26,5 +26,5 @@ main {
     background-color: orangered;
 }
 .display-1{
-    color: ghostwhite;
+    color: skyblue;
 }
